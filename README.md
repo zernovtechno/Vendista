@@ -1,5 +1,5 @@
 [README НА РУССКОМ](./READMERUS.md)
-# Vendista - a library for managing vending terminals
+# Vendista - a library for creating vending machine controllers
 
 Learn more on the Wiki! (work-in-progress)
 
@@ -31,9 +31,9 @@ Arduino is fast, simple, and really cool.
 3. It works on the ESP32/8266 and Arduino, but in theory it can work on any microcontroller that supports compiling with Arduino code.
 4. It's very small, but saves a lot of time writing your own solution.
 
-## Nuances...
+## Issues...
 
-1. This is my first Arduino library, and I have no idea how to write them. I tried to follow [Guyver's instructions](https://alexgyver.ru/lessons/library-writing/), and you can judge for yourself how it turned out. I look forward to your pull requests, or at least pointing out any errors in my issues. 2. The code was originally written for personal use, with the goal of a simple and quick implementation. Therefore, in some places it's completely inflexible, non-asynchronous, and not optimal. I'll try to fix this in updates!
+1. This is my first Arduino library, and I have no idea how to write them. I tried to follow [Gyver's instructions](https://alexgyver.ru/lessons/library-writing/), and you can judge for yourself how it turned out. I look forward to your pull requests, or at least pointing out any errors in my issues. 2. The code was originally written for personal use, with the goal of a simple and quick implementation. Therefore, in some places it's completely inflexible, non-asynchronous, and not optimal. I'll try to fix this in updates!
 3. The code uses Delay and String. I know this is bad, but I'll definitely fix it one day. You can still disable Delay by specifying 0 in the appropriate place (see below). Oh, and the source code is available, so I welcome your suggestions for fixes and improvements to the library.
 
 I hope this modest implementation will save someone time delving into the Vendista documentation, and also prevent you from using MDB adapters where they're clearly not needed.
