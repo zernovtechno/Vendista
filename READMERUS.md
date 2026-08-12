@@ -1,3 +1,4 @@
+[ENGLISH README](./README.md)
 # Vendista - библиотека для управления вендинговыми терминалами
 
 Подробнее на Wiki! (work-in-progress)
