@@ -1,7 +1,7 @@
 [README НА РУССКОМ](./READMERUS.md)
 # Vendista - a library for creating vending machine controllers
 
-Learn more on the Wiki! (work-in-progress)
+Learn more on the [Wiki](https://github.com/zernovtechno/Vendista/wiki)!
 
 This library allows you to create your own unique vending machine controller (VMC) based on the Vendista terminal.
 Features include payment requests, touch tracking, screen filling, text string rendering, and terminal reboot on command.
